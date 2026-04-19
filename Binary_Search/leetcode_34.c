@@ -1,3 +1,9 @@
+/*
+ * Problem: Find First and Last Position of Element in Sorted Array (LeetCode 34)
+ * Time Complexity: O(log N)
+ * Memory Complexity: O(1)
+*/
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

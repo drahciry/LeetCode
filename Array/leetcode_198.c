@@ -1,3 +1,9 @@
+/*
+ * Problem: House Robber (LeetCode 198)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 int rob(int* nums, int numsSize) {
     if (numsSize == 0) return 0;
     if (numsSize == 1) return nums[0];

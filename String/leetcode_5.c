@@ -1,3 +1,9 @@
+/*
+ * Problem: Logest Palindromic Substring (LeetCode 5)
+ * Time Complexity: O(N²)
+ * Memory Complexity: O(N)
+ */
+
 #include <stdlib.h>
 #include <string.h>
 

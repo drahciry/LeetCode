@@ -1,3 +1,9 @@
+/*
+ * Problem: Longest Substring Without Repeating Characters (LeetCode 3)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 #include <string.h>
 
 int lengthOfLongestSubstring(char* s) {

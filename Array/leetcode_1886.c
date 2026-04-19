@@ -1,3 +1,9 @@
+/*
+ * Problem: Determine Wheter Matrix Can Be Obtained By Rotation (LeetCode 1886)
+ * Time Complexity: O(M x N) - M is the number of rows and N number of columns
+ * Memory Complexity: O(1)
+ */
+
 #include <stdbool.h>
 
 bool findRotation(int** mat, int matSize, int* matColSize, int** target, int targetSize, int* targetColSize) {

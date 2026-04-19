@@ -1,3 +1,9 @@
+/*
+ * Problem: Remove Nth Node From End of List (LeetCode 19)
+ * Time Complexity: O(M) - M is the list size
+ * Memory Complexity: O(1)
+ */
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {

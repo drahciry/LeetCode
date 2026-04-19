@@ -1,3 +1,9 @@
+/*
+ * Problem: Unique Paths (LeetCode 62)
+ * Time Complexity: O(M x N)
+ * Memory Complexity: O(N) - State Compression
+ */
+
 #include <stdlib.h>
 
 int uniquePaths(int m, int n) {

@@ -1,4 +1,10 @@
-/*Solution with Stack*/
+/*
+ * Problem: Longest Valid Parenthesis (LeetCode 32)
+ * Solution with Stack
+ * Time Complexity: O(N)
+ * Memory Complexity: O(N)
+ */
+
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -72,7 +78,12 @@ int longestValidParentheses(char* s) {
     return longestValidSize;
 }
 
-/*Dynamic Programming Solution*/
+/*
+ * Problem: Longest Valid Parenthesis (LeetCode 32)
+ * Dynamic Programming Solution
+ * Time Complexity: O(N)
+ * Memory Complexity: O(N)
+ */
 #include <stdlib.h>
 
 int longestValidParentheses(char* s) {

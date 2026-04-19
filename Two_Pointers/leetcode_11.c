@@ -1,3 +1,9 @@
+/*
+ * Problem: Container With Most Water (LeetCode 11)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 int maxArea(int* height, int heightSize) {
     int start = 0;
     int end = heightSize - 1;

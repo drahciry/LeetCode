@@ -1,3 +1,9 @@
+/*
+ * Problem: Roman To Integer (LeetCode 13)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 #include <string.h>
 
 int get_value(char symbol) {

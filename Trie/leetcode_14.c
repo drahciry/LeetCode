@@ -1,4 +1,10 @@
-/*Solution with Trie*/
+/*
+ * Problem: Longest Common Prefix (LeetCode 14)
+ * Solution with Trie
+ * Time Complexity: O(N x K) - N is the size of biggest string and K is the number of strings
+ * Memory Complexity: O(N x K)
+ */
+
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -90,7 +96,13 @@ char* longestCommonPrefix(char** strs, int strsSize) {
     return strs[0];
 }
 
-/*Vertical Scanning Solution*/
+/*
+ * Problem: Longest Common Prefix (LeetCode 14)
+ * Vertical Scanning Solution
+ * Time Complexity: O(N x K) - N is the size of smallest prefix and K is the number of strings
+ * Memory Complexity: O(1)
+ */
+
 char* longestCommonPrefix(char** strs, int strsSize) {
     if (strsSize < 1) return "";
 

@@ -1,3 +1,9 @@
+/*
+ * Problem: Two Sum (LeetCode 1)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(N)
+ */
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

@@ -1,3 +1,9 @@
+/*
+ * Problem: Minimum Path Sum (LeetCode 64)
+ * Time Complexity: O(M x N) - M is the number of rows and N number of columns
+ * Memory Complexity: O(N) - State Compression
+ */
+
 int minPathSum(int** grid, int gridSize, int* gridColSize) {
     int rows = gridSize;
     int cols = gridColSize[0];

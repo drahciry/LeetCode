@@ -1,3 +1,9 @@
+/*
+ * Problem: Merge k Sorted Lists (LeetCode 23)
+ * Time Complexity: O(N log K) - N is the sum of lists sizes and K is the number of lists
+ * Memory Complexity: O(K)
+ */
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {

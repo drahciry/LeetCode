@@ -1,3 +1,9 @@
+/*
+ * Problem: Palindrome Number (LeetCode 9)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 #include <stdbool.h>
 #include <limits.h>
 
@@ -5,17 +11,12 @@ bool isPalindrome(int x) {
     if (x < 0)
         return false;
 
-    int num = x;
-    int reverse = 0;
-    long long check;
+    int half_reverse = 0;
 
-    do {
-        check = (long long) reverse * 10 + num % 10;
-        if (check >= INT_MAX)
-            return false;
-        reverse = (reverse * 10) + (num % 10);
-        num /= 10; 
-    } while (num > 0);
+    while (x > half_reverse) {
+        half_reverse = (half_reverse * 10) + (x % 10);
+        x /= 10;
+    }
 
-    return (reverse == x);
+    return half_reverse == x || half_reverse / 10 == x;
 }

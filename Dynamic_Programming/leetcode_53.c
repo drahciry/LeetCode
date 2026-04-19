@@ -1,3 +1,9 @@
+/*
+ * Problem: Maximum Subarray (LeetCode 53)
+ * Time Complexity: O(N)
+ * Memory Complexyt: O(1)
+ */
+
 int maxSubArray(int* nums, int numsSize) {
     if (numsSize == 0) return 0;
 

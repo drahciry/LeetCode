@@ -1,3 +1,9 @@
+/*
+ * Problem: Merge Two Sorted Lists (LeetCode 21)
+ * Time Complexity: O(P) - P is the smallest size between list1 and list2
+ * Memory Complexity: O(1)
+ */
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {

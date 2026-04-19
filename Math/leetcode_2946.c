@@ -1,3 +1,9 @@
+/*
+ * Problem: Matrix Similarity After Cyclic Shifts (LeetCode 2946)
+ * Time Complexity: O(M x N) - M is the number of rows and N number of columns
+ * Memory Complexity: O(1)
+ */
+
 #include <stdbool.h>
 
 bool areSimilar(int** mat, int matSize, int* matColSize, int k) {

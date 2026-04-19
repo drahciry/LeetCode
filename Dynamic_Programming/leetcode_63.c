@@ -1,3 +1,9 @@
+/*
+ * Problem: Unique Paths II (LeetCode 63)
+ * Time Complexity: O(M x N) - M is the number of rows and N number of columns
+ * Memory Complexity: O(N) - State Compression
+ */
+
 #include <stdlib.h>
 
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize) {

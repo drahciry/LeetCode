@@ -1,3 +1,9 @@
+/*
+ * Problem: Reverse Integer (LeetCode 7)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 #include <limits.h>
 
 int reverse(int x){

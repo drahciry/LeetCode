@@ -1,3 +1,9 @@
+/*
+ * Problem: Coin Change (LeetCode 322)
+ * Time Complexity: O(A x C) - A is amount and C is the number of coins for change
+ * Memory Complexity: O(A)
+ */
+
 int coinChange(int* coins, int coinsSize, int amount) {
     int dp[amount + 1];
 

@@ -1,3 +1,9 @@
+/*
+ * Problem: Count Submatrices With Equal Frequency of X and Y (LeetCode 3212)
+ * Time Complexity: O(M x N) - M is the number of rows and N number of columns
+ * Memory Complexity: O(1)
+ */
+
 #include <string.h>
 #include <stdbool.h>
 

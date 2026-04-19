@@ -1,3 +1,9 @@
+/*
+ * Problem: Search Insert Position (LeetCode 35)
+ * Time Complexity: O(log N)
+ * Memory Complexity: O(1)
+*/
+
 int searchInsert(int* nums, int numsSize, int target) {
     if (numsSize == 0) return 0;
 

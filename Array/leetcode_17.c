@@ -1,3 +1,9 @@
+/*
+ * Problem: Letter Combinations of a Phone Number (LeetCode 17)
+ * Time Complexity: O(N x 4^N)
+ * Memory Complexity: O(N x 4^N)
+ */
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

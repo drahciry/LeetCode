@@ -1,3 +1,9 @@
+/*
+ * Problem: 3Sum Closest (LeetCode 16)
+ * Time Complexity: O(N³)
+ * Memory Complexity: O(N) - Because of temporary array in Merge Sort
+ */
+
 #include <stdlib.h>
 
 void insertion_sort(int* arr, int left, int right) {

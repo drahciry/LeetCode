@@ -1,3 +1,9 @@
+/*
+ * Problem: 3Sum (LeetCode 15)
+ * Time Complexity: O(N³)
+ * Memory Complexity: O(N) - Because of temporary array in Merge Sort
+ */
+
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.

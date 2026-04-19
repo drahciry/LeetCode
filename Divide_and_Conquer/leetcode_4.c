@@ -1,3 +1,9 @@
+/*
+ * Problem: Median Of Two Sorted Arrays (LeetCode 4)
+ * Time Complexity: O(M + N) - M is num1 size and N is num2 size
+ * Memory Complexity: O(M + N)
+ */
+
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size) {
     if ((nums1Size == 0) && (nums2Size == 0)) return 0.0;
 

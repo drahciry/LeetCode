@@ -1,3 +1,9 @@
+/*
+ * Problem: Search in Roted Sorted Array (LeetCode 33)
+ * Time Complexity: O(log N)
+ * Memory Complexity: O(1)
+*/
+
 int search(int* nums, int numsSize, int target) {
     int left = 0;
     int right = numsSize - 1;

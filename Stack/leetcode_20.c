@@ -1,3 +1,9 @@
+/*
+ * Problem: Valid Parenthesis (LeetCode 20)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(N)
+ */
+
 #include <stdlib.h>
 #include <stdbool.h>
 

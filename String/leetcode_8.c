@@ -1,3 +1,9 @@
+/*
+ * Problem: String to Integer (atoi) (LeetCode 8)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 #include <limits.h>
 #include <stddef.h>
 

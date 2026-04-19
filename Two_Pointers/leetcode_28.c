@@ -1,3 +1,9 @@
+/*
+ * Problem: Find the Index of the First Occurence in String (LeetCode 28)
+ * Time Complexity: O(H x N)
+ * Memory Complexity: O(1)
+ */
+
 #include <string.h>
 
 int strStr(char* haystack, char* needle) {

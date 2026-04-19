@@ -1,3 +1,9 @@
+/*
+ * Problem: Divide Two Integers (LeetCode 29)
+ * Time Complexity: O(log N) - N is the divisor
+ * Memory Complexity: O(1)
+ */
+
 #include <limits.h>
 
 int divide(int dividend, int divisor) {

@@ -1,4 +1,9 @@
-#include <string.h>
+/*
+ * Problem: Integer to Roman (LeetCode 12)
+ * Time Complexity: O(1)
+ * Memory Complexity: O(1)
+ */
+
 #include <stdlib.h>
 
 char* intToRoman(int num) {
@@ -8,12 +13,18 @@ char* intToRoman(int num) {
     char* units[] = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
 
     char* result = (char*)malloc(16 * sizeof(char));
-    result[0] = '\0';
+    int idx = 0;
+    char* s;
 
-    strcat(result, thousands[num / 1000]);
-    strcat(result, hundreds[(num % 1000) / 100]);
-    strcat(result, tens[(num % 100) / 10]);
-    strcat(result, units[num % 10]);
+    s = thousands[num / 1000];
+    while (s++) result[idx++] = *s;
+    s = hundreds[(num & 1000) / 100];
+    while (s++) result[idx++] = *s;
+    s = tens[(num & 100) / 10];
+    while (s++) result[idx++] = *s;
+    s = units[num % 10];
+    while (s++) result[idx++] = *s;
+    result[idx] = '\0';
 
     return result;
 }

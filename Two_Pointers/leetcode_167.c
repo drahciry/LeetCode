@@ -1,3 +1,9 @@
+/*
+ * Problem: Two Sum II - Input Array is Sorted (LeetCode 167)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

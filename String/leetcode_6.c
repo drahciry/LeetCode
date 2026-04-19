@@ -1,3 +1,9 @@
+/*
+ * Problem: Zigzag Conversion (LeetCode 6)
+ * Time Complexity: O(N)
+ * Memory Complexity: O(1)
+ */
+
 #include <stdlib.h>
 
 char* convert(char* s, int numRows) {
